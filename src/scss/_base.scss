@@ -1,0 +1,62 @@
+$pantone-black: #19191f;
+$pantone-highlight: #292933;
+$pantone-white: #ecedf3;
+$pantone-grey: #96979b;
+$pantone-red: #ff3b52;
+$pantone-dark-red: #a53749;
+
+$font-size-h1: 42px;
+$font-size-h2: 36px;
+$font-size-h3: 32px;
+$font-size-h4: 28px;
+$font-size-h5: 24px;
+$font-size-h6: 22px;
+$font-size-li: 20px;
+$font-size-a: 18px;
+$font-size-subtext: 20px;
+$font-size-normal: 16px;
+$font-size-mobile: 14px;
+$font-size-tiny: 12px;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+button,
+input {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  background: #f10021;
+  background-color: #f10021;
+  background: radial-gradient(circle, #f10021 0%, #000000 100%);
+  width: 100vw;
+  height: 100%;
+  padding: 5% 15%;
+}
